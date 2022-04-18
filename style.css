@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-image: url(ban2.jpg);
+	width:100%;
+    background-size: cover;
+   height:75vh;
+}
+
+.nav{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+.items{
+    display: flex;
+    gap: 1rem;
+}
+
+.items a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.items a:hover{
+  color: aqua;
+}
+
+/* Book Catalog */
+.book-container{
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+	background:#eee;
+	border:1px solid gray;
+	border-radius:5px;
+}
+
+
+.book-container .card{
+    background-color: #fff;
+    width: 200px;
+	height:280px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	 border: 1px solid gray;
+  border-radius:10px;
+  margin-top:50px;
+  margin-bottom:50px;
+ padding-top:0;
+}
+.book-container .card img
+{
+
+	
+	height:220px;
+	border-radius:10px 10px 0px 0px;
+}
+
+.book-container .info{
+    text-align: center;
+    padding: 0.2rem 1rem;
+}
+.book-container .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Login */
+.login-container{
+    margin: auto;
+    padding: 0 2.5rem;
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    text-align: center;
+  }
+  
+  h3{
+    margin-top: 2rem;
+    font-size: 1.6em;
+  }
+  
+  form{
+    margin: 3rem 0;
+  }
+  
+  input{
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 0.8rem 2rem;
+    border-radius: 50px;
+    margin-top: 0.7rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  }
+  
+  .password{
+    position: relative;
+  }
+  
+  input[type="submit"]{
+    background-image: linear-gradient(90deg, #50d5b7, #15ac90);
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-top: 2rem;
+  }
+  
+  .sign-up{
+    color: rgb(90, 90, 90);
+    font-size: 1em;
+  }
+  
+  .sign-up a{
+    color: #1f15ac;
+  }
+
+  /* Shopping Cart */
+  .cart-container{
+    width: 600px;
+    margin: auto;
+  }
+  .cart-container-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2rem;
+   
+	background:#eee;
+	border-radius:10px;
+    gap: 2rem;
+    margin-top: 1rem;
+	border:1px solid gray;
+	margin-bottom:20px;
+  }
+  .cart-container-items:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.cart-container-items .img img
+{
+	border-radius:10px;
+	height:200px;
+	width:200px;
+	margin-bottom:0px;
+
+	
+}
+
+	  
+
+  .buy{
+    
+	background:orange;
+    color: #fff;
+	border-radius:10px;
+    padding: 1rem 2rem;
+  }
+  .buy:hover
+  {
+	  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	  background:green;
+  }
+	  
+
+  .title{
+    font-size: 18px;
+  }
+
+  /* User Profile */
+  .user-container{
+    width: 600px;
+    margin: auto;
+    margin-top: 3rem;
+  }
+
+  .user-container .card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+	border-radius:10px;
+  }
+   .user-container .card:hover
+  {
+	  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	  
+  }
+
+  .profile_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+	
+  }
+
+  .user-container .name{
+    font-size: 28px;
+  }
+
+  .user-container .logout{
+    background-color: red;
+    font-size: 20px;
+    color: #fff;
+    padding: 1rem;
+	border-radius:10px;
+  }
+  .user-container .logout:hover
+  {
+	 
+	  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	  background:green;
+  }
+	 
+	 
+	 
+ button
+{
+	background:#acc740;
+	border-radius:.4em;
+	text-align:center;
+	padding :1px;
+	height:40px;
+	outline:none;
+	
+	margin:40px 550px;
+	
+}
+button a
+{
+text-decoration:none;
+font-weight:bold;
+color:white;
+margin:10px 0px 0px 0px;
+
+}
